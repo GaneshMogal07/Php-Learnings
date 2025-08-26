@@ -1,0 +1,41 @@
+1️⃣ What is PHP?
+1.PHP is a programming/scripting language.
+2.Full form: PHP: Hypertext Preprocessor.
+3.It is used to build server-side web applications.
+4.With PHP, you can write your own logic from scratch (handling forms, connecting to databases, creating sessions, etc.).
+
+Example: Simple PHP code
+
+<?php
+echo "Hello, I am PHP!";
+?>
+
+
+
+2️⃣ What is Laravel?
+1.Laravel is a framework built on top of PHP.
+2.Think of it as a ready-made toolkit that makes PHP development faster, easier, and more organized.
+3.It provides pre-built features like:
+4.Routing (managing URLs)
+5.Authentication (login, registration)
+6.Database management (with Eloquent ORM)
+7.Security features (CSRF protection, hashing)
+8.MVC structure (Model-View-Controller)
+
+👉 Example: Laravel code for displaying "Hello World" (in a route)
+
+Route::get('/hello', function () {
+    return "Hello, I am Laravel!";
+});
+
+
+| Feature                  | PHP (Language) 🖥️                                   | Laravel (Framework) ⚡                                       |
+| ------------------------ | ---------------------------------------------------- | ----------------------------------------------------------- |
+| **Type**                 | A scripting language                                 | A framework built using PHP                                 |
+| **Usage**                | Write raw code to handle everything manually         | Provides ready-made tools for faster development            |
+| **Learning Curve**       | Easy to start (beginner-friendly)                    | Steeper learning curve (need PHP basics first)              |
+| **Structure**            | No structure (you decide how to organize)            | Uses MVC (Model-View-Controller) architecture               |
+| **Speed of Development** | Slower, you build features from scratch              | Faster, because of built-in tools                           |
+| **Security**             | You must handle manually (SQL injection, CSRF, etc.) | Provides built-in security features                         |
+| **Database Handling**    | Manual SQL queries (e.g., `mysqli_query`)            | Uses **Eloquent ORM** (easy way to interact with databases) |
+| **Best For**             | Small projects, learning basics                      | Large/complex applications, enterprise projects             |

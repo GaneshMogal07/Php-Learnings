@@ -1,0 +1,23 @@
+🔹 What is PHP?
+1.PHP stands for “PHP: Hypertext Preprocessor.”
+2.It is open-source, free to use, and very popular.
+3.PHP is flexible enough for simple websites and powerful enough to handle big platforms like WordPress.
+4.Beginners love it because it’s easy to start with, but professionals rely on it for building large, secure applications.
+
+🔹 PHP File Structure
+1.A PHP file can include HTML, CSS, JavaScript, and PHP code all together.
+2.Files must be saved with the .php extension.
+3.When opened in a browser, the server processes PHP code first and then sends back pure HTML.
+
+🔹 What Can PHP Do?
+1.Using PHP, you can:
+2.Generate dynamic content (personalized pages, dashboards, etc.)
+3.Manage files (create, update, delete, or read files)
+4.Work with forms (collect user input and process it)
+5.Handle cookies & sessions (store user preferences or logins)
+6.Connect with databases (insert, update, or fetch data)
+7.Manage user permissions
+8.Secure data with encryption
+9.Output more than just HTML → PHP can generate JSON, XML, images, or even PDF files
+
+
